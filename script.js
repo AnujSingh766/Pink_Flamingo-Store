@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (targetElement) {
           targetElement.innerHTML = data;
 
-          // Initialize dropdown only when the target element is the home section
+          
           if (elementId === 'home-section') {
             initializeDropdown();
           }
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 
-  // Function to initialize the dropdown behavior
+  
   // Function to initialize the dropdown behavior
 function initializeDropdown() {
     const dropdownContainer = document.getElementById('home-section');
@@ -37,7 +37,7 @@ function initializeDropdown() {
       const dropdownMenu = document.getElementById('products-dropdown');
   
       if (productsLink && dropdownMenu) {
-        event.preventDefault(); // Prevent default link behavior
+        event.preventDefault(); 
         dropdownMenu.classList.toggle('visible');
       }
     });
@@ -58,15 +58,15 @@ function initializeDropdown() {
   }
   
 
-  // Sections and their corresponding URLs
+
   const sections = [
-    { url: 'header.html', id: 'home-section' }, // Products link might be in this section
+    { url: 'header.html', id: 'home-section' }, 
     { url: 'hero.html', id: 'hero-section' },
     { url: 'category.html', id: 'categories-section' },
     { url: 'contact.html', id: 'contact-section' },
     { url: 'footer.html', id: 'footer-section' },
   ];
 
-  // Load each section
+ 
   sections.forEach((section) => loadHTML(section.url, section.id));
 });
