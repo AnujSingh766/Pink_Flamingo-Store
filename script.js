@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Function to load HTML content into a specified element by its ID
+  
   function loadHTML(url, elementId) {
     fetch(url)
       .then((response) => {

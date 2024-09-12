@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Ensure the header spans the full width and is fixed at the top */
+
 /* Fixed Header Styles */
 
 header {
@@ -90,7 +90,7 @@ header {
   background-color: #fa5c98;
   border: none;
   color: white;
-  padding: 8px 20px 8px 40px; /* Adjusted padding to create space for the pin icon */
+  padding: 8px 20px 8px 40px; 
   text-decoration: none;
   cursor: pointer;
   box-sizing: border-box;
@@ -99,35 +99,34 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  font-size: 10px; /* Adjust font size to match the design */
-  transition: background-color 0.3s; /* Smooth hover transition */
+  font-size: 10px; 
+  transition: background-color 0.3s; 
 }
 
-/* Hover effect to match the design */
+
 .delivery-btn:hover {
-  background-color: #e54d7a; /* Slightly darker shade for hover effect */
+  background-color: #e54d7a; 
 }
 
-/* Pin Icon Styles */
 .pin {
-  width: 20px; /* Adjust size to fit well inside the button */
+  width: 20px; 
   height: 20px;
   position: absolute;
-  left: 20px; /* Position the icon inside the button, adjusted for proper alignment */
-  top: 50%; /* Vertically center the pin */
-  transform: translateY(-50%); /* Ensure vertical centering */
+  left: 20px; 
+  top: 50%; 
+  transform: translateY(-50%); 
 }
 
-/* Optional: Adjust spacing between text and pin */
+
 .delivery-btn span {
-  margin-right: 30px; /* Adjust this value if necessary */
+  margin-right: 30px; 
 }
 
 input[type="test"],
 textarea {
   width: 619px;
   height: 49px;
-  padding: 10px 40px; /* Adjust for icon padding */
+  padding: 10px 40px; 
   border: 1px solid #e6e6e6;
   font-size: 12px;
   background: #fff;
@@ -949,7 +948,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px 40px; /* Adjust for icon padding */
+  padding: 10px 40px; 
   border: 1px solid #e6e6e6;
   border-radius: 8px;
   font-size: 14px;
